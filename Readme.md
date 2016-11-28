@@ -6,8 +6,7 @@ A way to access the [etherscan.io api](https://etherscan.io/apis) using promises
 
 
 ```javascript
-var api = require('etherscan-api').init('KMK786MB5AZYQSFS5CW3JQ9AAW4DCX3AX4
-');
+var api = require('etherscan-api').init('KMK786MB5AZYQSFS5CW3JQ9AAW4DCX3AX4');
 var balance = api.account.balance('0xbb9bc244d798123fde783fcc1c72d3bb8c189413');
 balance.then(function(balanceData){
   console.log(balanceData);
